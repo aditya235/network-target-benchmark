@@ -1,0 +1,26 @@
+{
+  "gat": {
+    "pred_rho_median": 0.631832847946711,
+    "pred_rho_iqr": [
+      0.47649201644871786,
+      0.7162445759772949
+    ],
+    "label_jaccard_median": 0.2698488421955403,
+    "top100_overlap_median": 0.11421477343265052,
+    "cross_auroc_own": 0.9325024748089487,
+    "cross_auroc_other": 0.8279442637539097,
+    "cross_auroc_ratio": 0.8878735296906737
+  },
+  "spectral": {
+    "pred_rho_median": 0.48802592698395153,
+    "pred_rho_iqr": [
+      0.36544893638623177,
+      0.5805263344665473
+    ],
+    "label_jaccard_median": 0.2698488421955403,
+    "top100_overlap_median": 0.2903225806451613,
+    "cross_auroc_own": 1.0,
+    "cross_auroc_other": 0.8719413772930418,
+    "cross_auroc_ratio": 0.8719413772930418
+  }
+}

@@ -1,0 +1,34 @@
+disease,n_in_graph,n_clinical,n_genetic,n_approved
+stroke,6876,374,2623,780
+hypertension,8655,353,3503,817
+rheumatoid arthritis,7251,344,1607,745
+major depressive disorder,5856,329,1037,756
+type 2 diabetes mellitus,8544,328,3097,795
+chronic kidney disease,5761,326,864,653
+Alzheimer's disease,10517,311,1770,871
+obesity,8737,297,1953,797
+inflammatory bowel disease,7646,294,1672,751
+type 1 diabetes mellitus,5306,290,811,656
+heart failure,5032,277,786,651
+Parkinson's disease,7589,276,504,781
+coronary artery disease,5775,274,1646,683
+schizophrenia,6690,266,1525,717
+epilepsy,6774,252,624,744
+asthma,6129,249,1424,656
+osteoarthritis,5343,246,1533,630
+chronic obstructive pulmonary disease,6896,232,834,729
+ulcerative colitis,6960,232,1034,693
+bipolar disorder,2990,231,791,470
+psoriasis,5865,225,797,613
+age-related macular degeneration,3594,201,241,482
+non-alcoholic fatty liver disease,5162,193,329,603
+systemic lupus erythematosus,5468,180,945,577
+atrial fibrillation,5723,169,1923,668
+migraine,2709,148,526,444
+glaucoma,5093,145,1330,524
+Crohn's disease,4751,137,790,501
+atopic dermatitis,4040,122,747,455
+gout,2038,92,918,310
+allergic rhinitis,3461,59,714,418
+hypercholesterolemia,2282,42,966,320
+osteoporosis,3649,33,209,441

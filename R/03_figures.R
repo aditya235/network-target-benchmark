@@ -86,11 +86,28 @@ eff[, family := fam_of(as.character(method))]
 setorder(eff, pct_degree)
 eff[, method := factor(method, levels = method)]
 
+# Labels sit inside the bar once there is room for them, so the axis does
+# not have to run past 100% to accommodate text. The scale still extends
+# beyond 100 if any value does: the share can exceed 100% when matched
+# performance falls below chance, and clipping that would hide it rather
+# than report it. A dashed rule marks 100% = all of the above-chance
+# performance was connectivity.
+eff[, lab_inside := pct_degree > 25]
+upper <- max(100, ceiling(max(eff$pct_degree) / 5) * 5)
+
 pB <- ggplot(eff, aes(method, pct_degree, fill = family)) +
   geom_col(width = .68) +
-  geom_text(aes(label = sprintf("%.0f%%", pct_degree)), hjust = -0.15, size = 3) +
+  geom_hline(yintercept = 100, linetype = "dashed", colour = "grey35", linewidth = .4) +
+  geom_text(data = eff[lab_inside == TRUE],
+            aes(label = sprintf("%.0f%%", pct_degree)),
+            hjust = 1.15, size = 3, colour = "white", fontface = "bold") +
+  geom_text(data = eff[lab_inside == FALSE],
+            aes(label = sprintf("%.0f%%", pct_degree)),
+            hjust = -0.2, size = 3, colour = "grey20") +
   scale_fill_manual(values = pal_fam) +
-  coord_flip(ylim = c(0, 115)) +
+  scale_y_continuous(breaks = seq(0, upper, by = 25),
+                     expand = expansion(mult = c(0, 0.02))) +
+  coord_flip(ylim = c(0, upper)) +
   labs(x = NULL, y = "% of above-chance performance explained by degree",
        fill = NULL, title = "B  How much was connectivity?") +
   base_thm
@@ -130,20 +147,33 @@ if (file.exists(ag_file)) {
       levels = c("own_cv_auroc", "agnostic_auroc", "other_disease_auroc"),
       labels = c("Own disease", "No disease info", "Another disease"))]
 
-  pA4 <- ggplot(long, aes(model, AUROC, group = disease)) +
-    geom_line(alpha = .25, colour = "grey45") +
-    geom_point(aes(colour = model), size = 1.8, alpha = .85) +
-    stat_summary(aes(group = 1), fun = median, geom = "line",
-                 colour = "#C0392B", linewidth = 1.1) +
-    stat_summary(aes(group = 1), fun = median, geom = "point",
-                 colour = "#C0392B", size = 3.2) +
+  # The three conditions are independent comparisons against the same
+  # labels, not stages of a process. An earlier version joined them with
+  # per-disease lines, which read as a progression from one condition to
+  # the next and implied a change that does not exist. Distributions with
+  # the underlying points shown carry the same information without the
+  # false narrative; the paired per-disease contrast that does make sense
+  # (own model vs no disease information) is Figure 5.
+  med <- long[, .(m = median(AUROC)), by = model]
+
+  pA4 <- ggplot(long, aes(model, AUROC)) +
+    geom_boxplot(aes(fill = model), width = .55, outlier.shape = NA, alpha = .35) +
+    geom_jitter(aes(colour = model), width = .13, height = 0,
+                size = 1.6, alpha = .75) +
+    geom_text(data = med, aes(y = m, label = sprintf("%.3f", m)),
+              nudge_x = .36, size = 3, colour = "grey15") +
     scale_colour_manual(values = c("Own disease" = "#1E8449",
                                    "No disease info" = "#7F8C8D",
                                    "Another disease" = "#2471A3"),
                         guide = "none") +
+    scale_fill_manual(values = c("Own disease" = "#1E8449",
+                                 "No disease info" = "#7F8C8D",
+                                 "Another disease" = "#2471A3"),
+                      guide = "none") +
     labs(x = NULL, y = "Degree-matched AUROC",
          title = "A  What does knowing the disease buy you?",
-         subtitle = "One line per disease; red is the median") +
+         subtitle = sprintf("One point per disease (n = %d); medians labelled",
+                            uniqueN(long$disease))) +
     base_thm
 
   pB4 <- ggplot(ag, aes(pct_labels_also_approved)) +

@@ -1,0 +1,7 @@
+{
+  "n_diseases": 33,
+  "n_nodes": 15882,
+  "folds": 5,
+  "repeats": 3,
+  "device": "cuda"
+}

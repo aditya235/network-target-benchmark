@@ -1,0 +1,8 @@
+method,all_nodes,degree_matched,attributable_to_degree
+spectral + XGBoost,0.9529,0.933,0.0199
+RWR,0.9572,0.9097,0.0475
+GAT,0.8688,0.8137,0.0551
+XGBoost (no graph),0.8509,0.7798,0.0711
+Betweenness,0.7058,0.526,0.1798
+MNC (CytoHubba),0.7589,0.5027,0.2561
+Degree,0.7585,0.5009,0.2576

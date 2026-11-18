@@ -1,0 +1,185 @@
+query,rank,id,name,suspect,is_mondo
+stroke,1,MONDO_0005098,stroke disorder,FALSE,TRUE
+stroke,2,MONDO_0011057,cerebrovascular disorder,FALSE,TRUE
+stroke,3,MONDO_1060198,ischemic stroke,FALSE,TRUE
+stroke,4,EFO_0020921,hemorrhagic stroke,FALSE,FALSE
+stroke,5,MONDO_0005490,large artery stroke,FALSE,TRUE
+stroke,6,EFO_1001976,cardioembolic stroke,FALSE,FALSE
+hypertension,1,MONDO_0005044,hypertensive disorder,FALSE,TRUE
+hypertension,2,MONDO_0015924,pulmonary arterial hypertension,FALSE,TRUE
+hypertension,3,MONDO_0007781,"essential hypertension, genetic",FALSE,TRUE
+hypertension,4,MONDO_0001134,essential hypertension,FALSE,TRUE
+hypertension,5,EFO_0009197,Pulmonary arterial hypertension associated with portal hypertension,FALSE,FALSE
+hypertension,6,MONDO_0017148,heritable pulmonary arterial hypertension,FALSE,TRUE
+multiple sclerosis,1,EFO_0803536,multiple sclerosis symptom measurement,TRUE,FALSE
+multiple sclerosis,2,MONDO_0005284,chronic progressive multiple sclerosis,FALSE,TRUE
+multiple sclerosis,3,MONDO_0005314,relapsing-remitting multiple sclerosis,FALSE,TRUE
+multiple sclerosis,4,MONDO_0017837,multiple sclerosis-ichthyosis-factor VIII deficiency syndrome,FALSE,TRUE
+multiple sclerosis,5,MONDO_0000451,primary progressive multiple sclerosis,FALSE,TRUE
+multiple sclerosis,6,MONDO_0000450,secondary progressive multiple sclerosis,FALSE,TRUE
+rheumatoid arthritis,1,MONDO_0008383,rheumatoid arthritis,FALSE,TRUE
+rheumatoid arthritis,2,EFO_0009460,ACPA-negative rheumatoid arthritis,FALSE,FALSE
+rheumatoid arthritis,3,EFO_0009459,ACPA-positive rheumatoid arthritis,FALSE,FALSE
+rheumatoid arthritis,4,MONDO_0019435,rheumatoid factor-positive polyarticular juvenile idiopathic arthritis,FALSE,TRUE
+rheumatoid arthritis,5,MONDO_0019432,rheumatoid factor-negative juvenile idiopathic arthritis,FALSE,TRUE
+rheumatoid arthritis,6,MONDO_0011429,juvenile idiopathic arthritis,FALSE,TRUE
+major depressive disorder,1,MONDO_0002009,major depressive disorder,FALSE,TRUE
+major depressive disorder,2,EFO_0007634,major depressive episode,FALSE,FALSE
+major depressive disorder,3,MONDO_1060152,schizoaffective depressive disorder,FALSE,TRUE
+major depressive disorder,4,MONDO_0004985,bipolar disorder,FALSE,TRUE
+major depressive disorder,5,MONDO_0005379,neurotic disorder,FALSE,TRUE
+major depressive disorder,6,EFO_0009964,bipolar II disorder,FALSE,FALSE
+type 2 diabetes mellitus,1,MONDO_0005148,type 2 diabetes mellitus,FALSE,TRUE
+chronic kidney disease,1,MONDO_0005300,chronic kidney disease,FALSE,TRUE
+chronic kidney disease,2,EFO_0009909,stage 5 chronic kidney disease,FALSE,FALSE
+chronic kidney disease,3,MONDO_0004691,autosomal dominant polycystic kidney disease,FALSE,TRUE
+chronic kidney disease,4,MONDO_0054842,polycystic kidney disease 6 with or without polycystic liver disease,FALSE,TRUE
+chronic kidney disease,5,MONDO_0013131,polycystic kidney disease 2,FALSE,TRUE
+chronic kidney disease,6,MONDO_0033281,polycystic kidney disease 5,FALSE,TRUE
+Alzheimer's disease,1,MONDO_0004975,Alzheimer disease,FALSE,TRUE
+Alzheimer's disease,2,EFO_0006514,Alzheimer's disease biomarker measurement,TRUE,FALSE
+Alzheimer's disease,3,EFO_0006801,Alzheimer's disease neuropathologic change,FALSE,FALSE
+Alzheimer's disease,4,MONDO_0011913,Alzheimer disease 3,FALSE,TRUE
+Alzheimer's disease,5,EFO_0022957,early-onset Alzheimers disease,FALSE,FALSE
+Alzheimer's disease,6,EFO_1001870,late-onset Alzheimers disease,FALSE,FALSE
+obesity,1,MONDO_0011122,obesity disorder,FALSE,TRUE
+obesity,2,MONDO_0019182,inherited obesity,FALSE,TRUE
+obesity,3,MONDO_0005139,morbid obesity,FALSE,TRUE
+obesity,4,MONDO_0013991,obesity due to congenital leptin deficiency,FALSE,TRUE
+obesity,5,MONDO_0012335,obesity due to pro-opiomelanocortin deficiency,FALSE,TRUE
+obesity,6,MONDO_0010961,obesity due to prohormone convertase I deficiency,FALSE,TRUE
+inflammatory bowel disease,1,MONDO_0005265,inflammatory bowel disease,FALSE,TRUE
+inflammatory bowel disease,2,HP_0002037,Inflammation of the large intestine,FALSE,FALSE
+inflammatory bowel disease,3,MONDO_0009960,inflammatory bowel disease 1,FALSE,TRUE
+inflammatory bowel disease,4,MONDO_0011661,inflammatory bowel disease 5,FALSE,TRUE
+inflammatory bowel disease,5,MONDO_0016542,IL10-related early-onset inflammatory bowel disease,FALSE,TRUE
+inflammatory bowel disease,6,MONDO_0012845,inflammatory bowel disease 19,FALSE,TRUE
+type 1 diabetes mellitus,1,MONDO_0005147,type 1 diabetes mellitus,FALSE,TRUE
+Parkinson's disease,1,MONDO_0005180,Parkinson disease,FALSE,TRUE
+Parkinson's disease,2,EFO_0600011,Parkinson's disease symptom measurement,TRUE,FALSE
+Parkinson's disease,3,MONDO_0009830,parkinsonian-pyramidal syndrome,FALSE,TRUE
+Parkinson's disease,4,MONDO_0015914,primary orthostatic hypotension,FALSE,TRUE
+Parkinson's disease,5,HP_0100595,Camptocormia,FALSE,FALSE
+Parkinson's disease,6,EFO_0011057,neurotoxicity,FALSE,FALSE
+heart failure,1,MONDO_0005252,heart failure,FALSE,TRUE
+heart failure,2,MONDO_0005009,congestive heart failure,FALSE,TRUE
+heart failure,3,MONDO_0005253,high output heart failure,FALSE,TRUE
+heart failure,4,HP_0009805,Low-output congestive heart failure,FALSE,FALSE
+heart failure,5,MONDO_0006993,systolic heart failure,FALSE,TRUE
+heart failure,6,MONDO_0006727,diastolic heart failure,FALSE,TRUE
+coronary artery disease,1,MONDO_0005010,coronary artery disorder,FALSE,TRUE
+coronary artery disease,2,EFO_0003776,coronary artery bypass,FALSE,FALSE
+coronary artery disease,3,MONDO_0012586,"coronary artery disease, autosomal dominant 2",FALSE,TRUE
+coronary artery disease,4,MONDO_0021661,coronary atherosclerosis,FALSE,TRUE
+coronary artery disease,5,EFO_0004723,coronary artery calcification,FALSE,FALSE
+coronary artery disease,6,EFO_0003951,percutaneous transluminal coronary angioplasty,FALSE,FALSE
+schizophrenia,1,MONDO_0005090,schizophrenia,FALSE,TRUE
+schizophrenia,2,MONDO_0013498,schizophrenia 15,FALSE,TRUE
+schizophrenia,3,EFO_0007927,schizophrenia symptom severity measurement,TRUE,FALSE
+schizophrenia,4,MONDO_0005414,treatment-refractory schizophrenia,TRUE,TRUE
+schizophrenia,5,MONDO_0033312,schizophrenia 19,FALSE,TRUE
+schizophrenia,6,EFO_0004785,South Texas Assessment of Neurocognition,FALSE,FALSE
+asthma,1,MONDO_0004979,asthma,FALSE,TRUE
+asthma,2,MONDO_0005405,childhood onset asthma,FALSE,TRUE
+asthma,3,MONDO_0004784,allergic asthma,FALSE,TRUE
+asthma,4,OBA_2001001,age of onset of asthma,FALSE,FALSE
+asthma,5,EFO_0010638,atopic asthma,FALSE,FALSE
+asthma,6,OBA_2001015,age of onset of childhood onset asthma,FALSE,FALSE
+epilepsy,1,MONDO_0005027,epilepsy,FALSE,TRUE
+epilepsy,2,HP_0001250,Seizure,FALSE,FALSE
+epilepsy,3,MONDO_0100577,myoclonic epilepsy,FALSE,TRUE
+epilepsy,4,MONDO_0019448,benign adult familial myoclonic epilepsy,FALSE,TRUE
+epilepsy,5,MONDO_0100619,variable age epilepsy syndrome,FALSE,TRUE
+epilepsy,6,MONDO_0020072,childhood-onset epilepsy syndrome,FALSE,TRUE
+osteoarthritis,1,MONDO_0005178,osteoarthritis,FALSE,TRUE
+osteoarthritis,2,MONDO_0006632,"osteoarthritis, hand",FALSE,TRUE
+osteoarthritis,3,EFO_0007942,hip osteoarthritis symptom severity measurement,TRUE,FALSE
+osteoarthritis,4,MONDO_0005416,"osteoarthritis, knee",FALSE,TRUE
+osteoarthritis,5,EFO_0005890,osteoarthritis biomarker measurement,TRUE,FALSE
+osteoarthritis,6,MONDO_0006629,"osteoarthritis, hip",FALSE,TRUE
+chronic obstructive pulmonary disease,1,MONDO_0005002,chronic obstructive pulmonary disease,FALSE,TRUE
+chronic obstructive pulmonary disease,2,OBA_2055786,age of onset of chronic obstructive pulmonary disease,FALSE,FALSE
+chronic obstructive pulmonary disease,3,MONDO_0005087,respiratory system disorder,FALSE,TRUE
+chronic obstructive pulmonary disease,4,MONDO_0005607,chronic bronchitis,FALSE,TRUE
+chronic obstructive pulmonary disease,5,MONDO_0004849,pulmonary emphysema,FALSE,TRUE
+chronic obstructive pulmonary disease,6,MONDO_0004596,cor pulmonale,FALSE,TRUE
+ulcerative colitis,1,MONDO_0005101,ulcerative colitis,FALSE,TRUE
+ulcerative colitis,2,EFO_1000226,Dysplasia in Ulcerative Colitis,FALSE,FALSE
+ulcerative colitis,3,MONDO_0030314,"inflammatory bowel disease (infantile ulcerative colitis) 31, autosomal recessive",FALSE,TRUE
+ulcerative colitis,4,MONDO_0006038,indeterminate colitis,FALSE,TRUE
+ulcerative colitis,5,MONDO_0005533,distal colitis,FALSE,TRUE
+ulcerative colitis,6,MONDO_0005265,inflammatory bowel disease,FALSE,TRUE
+bipolar disorder,1,MONDO_0004985,bipolar disorder,FALSE,TRUE
+bipolar disorder,2,EFO_0009963,bipolar I disorder,FALSE,FALSE
+bipolar disorder,3,EFO_0009964,bipolar II disorder,FALSE,FALSE
+bipolar disorder,4,MONDO_0015286,congenital disorder of glycosylation,FALSE,TRUE
+bipolar disorder,5,MONDO_0012117,ALG9-congenital disorder of glycosylation,FALSE,TRUE
+bipolar disorder,6,MONDO_0005500,congenital disorder of glycosylation type I,FALSE,TRUE
+psoriasis,1,MONDO_0005083,psoriasis,FALSE,TRUE
+psoriasis,2,EFO_1001494,psoriasis vulgaris,FALSE,FALSE
+psoriasis,3,MONDO_0100491,generalized pustular psoriasis,FALSE,TRUE
+psoriasis,4,MONDO_0013626,"psoriasis 14, pustular",FALSE,TRUE
+psoriasis,5,MONDO_0011269,psoriasis 2,FALSE,TRUE
+psoriasis,6,MONDO_0019436,psoriasis-related juvenile idiopathic arthritis,FALSE,TRUE
+age-related macular degeneration,1,MONDO_0005150,age-related macular degeneration,FALSE,TRUE
+non-alcoholic fatty liver disease,1,EFO_1001248,non-alcoholic fatty liver,FALSE,FALSE
+systemic lupus erythematosus,1,MONDO_0007915,systemic lupus erythematosus,FALSE,TRUE
+systemic lupus erythematosus,2,MONDO_0013743,autosomal systemic lupus erythematosus type 16,FALSE,TRUE
+systemic lupus erythematosus,3,MONDO_1060174,systemic lupus erythematosus related to C1QA,FALSE,TRUE
+systemic lupus erythematosus,4,MONDO_0005282,cutaneous lupus erythematosus,FALSE,TRUE
+systemic lupus erythematosus,5,MONDO_0004670,lupus erythematosus,FALSE,TRUE
+systemic lupus erythematosus,6,MONDO_1060185,systemic lupus erythematosus 18,FALSE,TRUE
+atrial fibrillation,1,MONDO_0004981,atrial fibrillation,FALSE,TRUE
+atrial fibrillation,2,MONDO_0013545,"atrial fibrillation, familial, 12",FALSE,TRUE
+atrial fibrillation,3,MONDO_0014340,"atrial fibrillation, familial, 15",FALSE,TRUE
+atrial fibrillation,4,MONDO_0013530,"atrial fibrillation, familial, 10",FALSE,TRUE
+atrial fibrillation,5,MONDO_0018054,familial atrial fibrillation,FALSE,TRUE
+atrial fibrillation,6,MONDO_0013513,"atrial fibrillation, familial, 9",FALSE,TRUE
+migraine,1,MONDO_0005277,migraine disorder,FALSE,TRUE
+migraine,2,MONDO_0018925,familial or sporadic hemiplegic migraine,FALSE,TRUE
+migraine,3,MONDO_0100539,hemiplegic migraine-developmental and epileptic encephalopathy spectrum,FALSE,TRUE
+migraine,4,OBA_2001026,age of onset of migraine disorder,FALSE,FALSE
+migraine,5,OBA_2001027,age of onset of migraine with aura,FALSE,FALSE
+migraine,6,MONDO_0000700,familial hemiplegic migraine,FALSE,TRUE
+glaucoma,1,MONDO_0005041,glaucoma,FALSE,TRUE
+glaucoma,2,MONDO_0018174,hereditary glaucoma,FALSE,TRUE
+glaucoma,3,MONDO_0020367,juvenile open angle glaucoma,FALSE,TRUE
+glaucoma,4,MONDO_0005338,open-angle glaucoma,FALSE,TRUE
+glaucoma,5,MONDO_0001868,primary angle-closure glaucoma,FALSE,TRUE
+glaucoma,6,MONDO_0007664,"glaucoma 1, open angle, A",FALSE,TRUE
+Crohn's disease,1,MONDO_0005011,Crohn disease,FALSE,TRUE
+Crohn's disease,2,MONDO_0005265,inflammatory bowel disease,FALSE,TRUE
+Crohn's disease,3,MONDO_0005532,Crohn's colitis,FALSE,TRUE
+Crohn's disease,4,MONDO_0018353,refractory celiac disease,FALSE,TRUE
+Crohn's disease,5,MONDO_0005534,ileocolitis,FALSE,TRUE
+Crohn's disease,6,MONDO_0005539,small bowel Crohn disease,FALSE,TRUE
+atopic dermatitis,1,MONDO_0004980,atopic eczema,FALSE,TRUE
+atopic dermatitis,2,MONDO_0002406,dermatitis,FALSE,TRUE
+atopic dermatitis,3,MONDO_0054697,immunodeficiency 11b with atopic dermatitis,FALSE,TRUE
+atopic dermatitis,4,MONDO_0005202,atopic IgE-mediated allergic disorder,FALSE,TRUE
+atopic dermatitis,5,MONDO_0043233,exfoliative dermatitis,FALSE,TRUE
+atopic dermatitis,6,MONDO_0032654,"hyper-IgE recurrent infection syndrome 3, autosomal recessive",FALSE,TRUE
+gout,1,MONDO_0005393,gout,FALSE,TRUE
+gout,2,EFO_0021525,renal overload-type gout,FALSE,FALSE
+gout,3,EFO_0004761,uric acid measurement,TRUE,FALSE
+gout,4,MONDO_0010299,hypoxanthine guanine phosphoribosyltransferase partial deficiency,FALSE,TRUE
+gout,5,MONDO_0010395,phosphoribosylpyrophosphate synthetase superactivity,FALSE,TRUE
+gout,6,MONDO_0000608,familial juvenile hyperuricemic nephropathy,FALSE,TRUE
+allergic rhinitis,1,MONDO_0011786,allergic rhinitis,FALSE,TRUE
+allergic rhinitis,2,MONDO_0005324,seasonal allergic rhinitis,FALSE,TRUE
+allergic rhinitis,3,MONDO_0024332,perennial allergic rhinitis,FALSE,TRUE
+allergic rhinitis,4,MONDO_0005271,allergic disease,FALSE,TRUE
+allergic rhinitis,5,MONDO_0000771,allergic respiratory disease,FALSE,TRUE
+allergic rhinitis,6,MONDO_0004784,allergic asthma,FALSE,TRUE
+hypercholesterolemia,1,HP_0003124,Hypercholesterolemia,FALSE,FALSE
+hypercholesterolemia,2,MONDO_0005439,familial hypercholesterolemia,FALSE,TRUE
+hypercholesterolemia,3,MONDO_0007750,"hypercholesterolemia, familial, 1",FALSE,TRUE
+hypercholesterolemia,4,MONDO_0011369,"hypercholesterolemia, autosomal dominant, 3",FALSE,TRUE
+hypercholesterolemia,5,MONDO_0018328,homozygous familial hypercholesterolemia,FALSE,TRUE
+hypercholesterolemia,6,MONDO_0007751,"hypercholesterolemia, autosomal dominant, type B",FALSE,TRUE
+osteoporosis,1,MONDO_0005298,osteoporosis,FALSE,TRUE
+osteoporosis,2,MONDO_0019409,idiopathic juvenile osteoporosis,FALSE,TRUE
+osteoporosis,3,MONDO_0011020,osteoporosis-oculocutaneous hypopigmentation syndrome,FALSE,TRUE
+osteoporosis,4,MONDO_0009820,osteoporosis-pseudoglioma syndrome,FALSE,TRUE
+osteoporosis,5,MONDO_0008159,postmenopausal osteoporosis,FALSE,TRUE
+osteoporosis,6,MONDO_0044675,LRP5-related primary osteoporosis,FALSE,TRUE

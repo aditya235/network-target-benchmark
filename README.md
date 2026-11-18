@@ -66,4 +66,6 @@ Manuscript under review. Citation details will be added on acceptance.
 
 ## License
 
-[Add a license before submission — without one, default copyright prevents readers from reusing the code.]
+MIT. See `LICENSE`.
+
+Note that the data this code retrieves carry their own terms: STRING is CC BY 4.0, and Open Targets data are CC0 with per-source licences on some evidence streams. This licence covers the analysis code only.

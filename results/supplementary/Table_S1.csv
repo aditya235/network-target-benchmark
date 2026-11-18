@@ -1,0 +1,34 @@
+Disease,Open Targets ID,Matched term,Associated targets,In network,Positive labels,With genetic evidence
+Alzheimer's disease,MONDO_0004975,Alzheimer disease,9964,10517,311,1770
+Crohn's disease,MONDO_0005011,Crohn disease,6314,4751,137,790
+Parkinson's disease,MONDO_0005180,Parkinson disease,8628,7589,276,504
+age-related macular degeneration,MONDO_0005150,age-related macular degeneration,3963,3594,201,241
+allergic rhinitis,MONDO_0011786,allergic rhinitis,3752,3461,59,714
+asthma,MONDO_0004979,asthma,7491,6129,249,1424
+atopic dermatitis,MONDO_0004980,atopic eczema,4461,4040,122,747
+atrial fibrillation,MONDO_0004981,atrial fibrillation,6359,5723,169,1923
+bipolar disorder,MONDO_0004985,bipolar disorder,3345,2990,231,791
+chronic kidney disease,MONDO_0005300,chronic kidney disease,6475,5761,326,864
+chronic obstructive pulmonary disease,MONDO_0005002,chronic obstructive pulmonary disease,7751,6896,232,834
+coronary artery disease,MONDO_0005010,coronary artery disorder,6546,5775,274,1646
+epilepsy,MONDO_0005027,epilepsy,7494,6774,252,624
+glaucoma,MONDO_0005041,glaucoma,5764,5093,145,1330
+gout,MONDO_0005393,gout,2281,2038,92,918
+heart failure,MONDO_0005252,heart failure,5479,5032,277,786
+hypercholesterolemia,HP_0003124,Hypercholesterolemia,2493,2282,42,966
+hypertension,MONDO_0005044,hypertensive disorder,9863,8655,353,3503
+inflammatory bowel disease,MONDO_0005265,inflammatory bowel disease,8529,7646,294,1672
+major depressive disorder,MONDO_0002009,major depressive disorder,6385,5856,329,1037
+migraine,MONDO_0005277,migraine disorder,2933,2709,148,526
+non-alcoholic fatty liver disease,EFO_1001248,non-alcoholic fatty liver,5597,5162,193,329
+obesity,MONDO_0011122,obesity disorder,9855,8737,297,1953
+osteoarthritis,MONDO_0005178,osteoarthritis,6043,5343,246,1533
+osteoporosis,MONDO_0005298,osteoporosis,3948,3649,33,209
+psoriasis,MONDO_0005083,psoriasis,7138,5865,225,797
+rheumatoid arthritis,MONDO_0008383,rheumatoid arthritis,8249,7251,344,1607
+schizophrenia,MONDO_0005090,schizophrenia,7739,6690,266,1525
+stroke,MONDO_0005098,stroke disorder,7871,6876,374,2623
+systemic lupus erythematosus,MONDO_0007915,systemic lupus erythematosus,6361,5468,180,945
+type 1 diabetes mellitus,MONDO_0005147,type 1 diabetes mellitus,5884,5306,290,811
+type 2 diabetes mellitus,MONDO_0005148,type 2 diabetes mellitus,9798,8544,328,3097
+ulcerative colitis,MONDO_0005101,ulcerative colitis,8900,6960,232,1034

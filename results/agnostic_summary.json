@@ -1,0 +1,7 @@
+{
+  "own_median": 0.9331,
+  "other_median": 0.8852,
+  "agnostic_median": 0.8945,
+  "advantage_median": 0.0324,
+  "n_diseases": 33
+}

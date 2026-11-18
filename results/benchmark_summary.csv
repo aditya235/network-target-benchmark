@@ -1,0 +1,15 @@
+evaluation,method,AUROC_mean,AUROC_std,AUPRC_mean,AUPRC_std
+all_nodes,Betweenness,0.7058,0.048,0.0354,0.0157
+all_nodes,Degree,0.7585,0.0532,0.042,0.0333
+all_nodes,GAT,0.8688,0.0889,0.2592,0.1421
+all_nodes,MNC (CytoHubba),0.7589,0.0532,0.042,0.0334
+all_nodes,RWR,0.9572,0.0165,0.3593,0.1123
+all_nodes,XGBoost (no graph),0.8509,0.0382,0.2386,0.1126
+all_nodes,spectral + XGBoost,0.9529,0.0233,0.5647,0.1482
+degree_matched,Betweenness,0.526,0.0681,0.2991,0.0783
+degree_matched,Degree,0.5009,0.0538,0.2715,0.0424
+degree_matched,GAT,0.8137,0.1137,0.6523,0.1656
+degree_matched,MNC (CytoHubba),0.5027,0.0549,0.2723,0.0416
+degree_matched,RWR,0.9097,0.0388,0.7863,0.0861
+degree_matched,XGBoost (no graph),0.7798,0.0573,0.5807,0.1022
+degree_matched,spectral + XGBoost,0.933,0.0312,0.8516,0.0683

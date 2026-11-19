@@ -1,8 +1,13 @@
 # ============================================================
 # 04_supplementary.R -- supplementary tables, submission-ready.
 #
-# S1  the 34 diseases, pre-specified, with resolved identifiers and
-#     label counts (the table a reviewer checks first)
+# S1  the disease panel, with resolved identifiers and label counts
+#     (the table a reviewer checks first)
+#
+# Counts are derived from the data, never written out as literals. An
+# earlier version hardcoded "34" in three captions; one disease was later
+# excluded and the tables moved to 33 while the captions did not, so the
+# supplement contradicted the manuscript.
 # S2  full per-method per-evaluation results
 # S3  per-disease degree effect
 # S4  disease-specificity comparison
@@ -18,10 +23,20 @@ RES <- "results"; SUP <- file.path(RES, "supplementary")
 dir.create(SUP, recursive = TRUE, showWarnings = FALSE)
 msg <- function(...) cat(sprintf("[%s] ", format(Sys.time(), "%H:%M:%S")), ..., "\n", sep = "")
 
+# Read the panel first so every caption can quote a derived count.
+feas <- fread(file.path("data", "disease_feasibility.csv"))
+N_PRESPEC <- 34L                      # pre-specified before any analysis
+N_ANALYSED <- nrow(feas)              # after documented exclusions
+N_WORDS <- c("33" = "Thirty-three", "34" = "Thirty-four")
+n_word <- function(n) {
+  w <- N_WORDS[as.character(n)]
+  if (is.na(w)) as.character(n) else unname(w)
+}
+
 md <- c("# Supplementary Material",
         "",
         "**Network methods find druggable proteins, not disease genes:",
-        "a controlled benchmark across 34 diseases**",
+        sprintf("a controlled benchmark across %d diseases**", N_ANALYSED),
         "")
 
 add <- function(dt, id, title, note = NULL) {
@@ -37,7 +52,6 @@ add <- function(dt, id, title, note = NULL) {
 }
 
 # ---- S1. the disease panel ----------------------------------------------
-feas <- fread(file.path("data", "disease_feasibility.csv"))
 dsum_f <- file.path("data", "disease_summary.csv")
 if (file.exists(dsum_f)) {
   dsum <- fread(dsum_f)
@@ -55,10 +69,15 @@ s1 <- feas[, .(
 )]
 setorder(s1, Disease)
 add(s1, "S1", "Disease panel",
-    paste("Thirty-four diseases, pre-specified before any analysis.",
+    paste(sprintf("%s diseases were pre-specified before any analysis;", n_word(N_PRESPEC)),
+          sprintf("%d are analysed here.", N_ANALYSED),
+          if (N_ANALYSED < N_PRESPEC)
+            paste("Multiple sclerosis was excluded because Open Targets holds no",
+                  "generic entry for it carrying association data (Section 2.2).") else "",
           "Identifiers were resolved programmatically through the Open Targets",
-          "search API. Positive labels are proteins with non-zero `clinical`",
-          "evidence for that disease that are present in the interaction network."))
+          "search API and verified by hand. Positive labels are proteins with",
+          "non-zero `clinical` evidence for that disease that are present in",
+          "the interaction network."))
 
 # ---- S2. full benchmark results ------------------------------------------
 bm <- fread(file.path(RES, "benchmark_raw.csv"))
@@ -72,7 +91,8 @@ setnames(s2, 3:ncol(s2),
          c(paste0(c(mcols, pcol), "_mean"), paste0(c(mcols, pcol), "_sd")))
 setorder(s2, Evaluation, -AUROC_mean)
 add(s2, "S2", "Benchmark results by method and evaluation scheme",
-    "Mean and standard deviation across 34 diseases x 3 repeats x 5 folds.")
+    sprintf("Mean and standard deviation across %d diseases x 3 repeats x 5 folds.",
+            uniqueN(bm$disease)))
 
 # ---- S3. per-disease degree effect ----------------------------------------
 pd <- bm[, .(AUROC = mean(AUROC)), by = .(disease, method, evaluation)]

@@ -1,11 +1,11 @@
 # Supplementary Material
 
 **Network methods find druggable proteins, not disease genes:
-a controlled benchmark across 34 diseases**
+a controlled benchmark across 33 diseases**
 
 ## Supplementary Table S1. Disease panel
 
-Thirty-four diseases, pre-specified before any analysis. Identifiers were resolved programmatically through the Open Targets search API. Positive labels are proteins with non-zero `clinical` evidence for that disease that are present in the interaction network.
+Thirty-four diseases were pre-specified before any analysis; 33 are analysed here. Multiple sclerosis was excluded because Open Targets holds no generic entry for it carrying association data (Section 2.2). Identifiers were resolved programmatically through the Open Targets search API and verified by hand. Positive labels are proteins with non-zero `clinical` evidence for that disease that are present in the interaction network.
 
 | Disease | Open Targets ID | Matched term | Associated targets | In network | Positive labels | With genetic evidence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -45,7 +45,7 @@ Thirty-four diseases, pre-specified before any analysis. Identifiers were resolv
 
 ## Supplementary Table S2. Benchmark results by method and evaluation scheme
 
-Mean and standard deviation across 34 diseases x 3 repeats x 5 folds.
+Mean and standard deviation across 33 diseases x 3 repeats x 5 folds.
 
 | Evaluation | Method | AUROC_mean | AUPRC_mean | Precision@50_mean | Precision@48_mean | Precision@47_mean | Precision@34_mean | Precision@33_mean | Precision@27_mean | Precision@26_mean | AUROC_sd | AUPRC_sd | Precision@50_sd | Precision@48_sd | Precision@47_sd | Precision@34_sd | Precision@33_sd | Precision@27_sd | Precision@26_sd |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

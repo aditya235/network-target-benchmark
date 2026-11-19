@@ -1,0 +1,205 @@
+{
+  "n_seeds": 500,
+  "ratio": 3,
+  "seed": 0,
+  "select_evidence": [
+    "genetic",
+    "animal",
+    "somatic"
+  ],
+  "min_positives": 10,
+  "samples": 300,
+  "clique_budget": 500000,
+  "skipped": [
+    [
+      "Alzheimer's disease",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "Crohn's disease",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "Parkinson's disease",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "age-related macular degeneration",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "allergic rhinitis",
+      "seeds",
+      "6 positives"
+    ],
+    [
+      "allergic rhinitis",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "asthma",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "atopic dermatitis",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "atrial fibrillation",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "bipolar disorder",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "chronic kidney disease",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "chronic obstructive pulmonary disease",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "coronary artery disease",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "epilepsy",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "glaucoma",
+      "seeds",
+      "4 positives"
+    ],
+    [
+      "glaucoma",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "gout",
+      "seeds",
+      "5 positives"
+    ],
+    [
+      "gout",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "heart failure",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "hypercholesterolemia",
+      "seeds",
+      "7 positives"
+    ],
+    [
+      "hypercholesterolemia",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "hypertension",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "inflammatory bowel disease",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "major depressive disorder",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "migraine",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "non-alcoholic fatty liver disease",
+      "seeds",
+      "9 positives"
+    ],
+    [
+      "non-alcoholic fatty liver disease",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "obesity",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "osteoarthritis",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "osteoporosis",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "psoriasis",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "rheumatoid arthritis",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "schizophrenia",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "stroke",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "systemic lupus erythematosus",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "type 1 diabetes mellitus",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "type 2 diabetes mellitus",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ],
+    [
+      "ulcerative colitis",
+      "expanded",
+      "MCC: clique budget exceeded"
+    ]
+  ]
+}

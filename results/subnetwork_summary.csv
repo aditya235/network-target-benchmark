@@ -1,0 +1,12 @@
+arm,method,n_diseases,AUROC_subnetwork,AUROC_subnetwork_sd,AUROC_matched,AUROC_matched_sd,degree_share_pct
+expanded,Betweenness,33,0.645,0.0389,0.5556,0.0495,61.7
+expanded,Bottleneck,33,0.511,0.0075,0.507,0.009,36.9
+expanded,Degree,33,0.6391,0.0506,0.4992,0.0024,100.6
+expanded,Global degree,33,0.6275,0.0496,0.4907,0.0322,107.3
+expanded,MNC,33,0.6374,0.0504,0.4987,0.0051,101.0
+seeds,Betweenness,28,0.7367,0.0425,0.4948,0.052,102.2
+seeds,Bottleneck,28,0.6179,0.0534,0.479,0.057,117.8
+seeds,Degree,28,0.7959,0.0551,0.5379,0.0329,87.2
+seeds,Global degree,28,0.7596,0.0532,0.5403,0.0659,84.5
+seeds,MCC,28,0.7849,0.0639,0.5516,0.0647,81.9
+seeds,MNC,28,0.7919,0.0596,0.5555,0.0529,81.0
